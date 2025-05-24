@@ -1,5 +1,5 @@
 import './App.css'
-import AllItems from '../components/allItems'
+import AllItems from '../components/AllItems'
 import SearchBar from '../components/SearchBar'
 import { useState } from 'react';
 import Theme from '../components/Theme';
