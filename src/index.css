@@ -1,0 +1,33 @@
+@import "tailwindcss";
+*{
+    box-sizing: border-box;
+    
+}
+body {
+    background-color: hsl(180, 52%, 96%);
+    
+  }
+  .tag-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: flex-end;
+  }
+  .tag {
+    font-size: 0.875rem;       /* Equivalent to Tailwind's text-sm */
+    font-weight: 700;          /* Bold */
+    color: hsl(180, 29%, 50%); /* Teal text */
+    background-color: hsl(180, 52%, 96%);
+    padding: 0.4rem 0.6rem;
+    border-radius: 0.25rem;    /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .tag:hover {
+    background-color: hsl(180, 29%, 50%);
+    color: white;
+  }
+@media (min-width: 768px) {
+    
+  }
